@@ -1,8 +1,6 @@
 # Create your views here.
-
 from django.shortcuts import render, redirect
 from .models import Task
-from django.contrib import messages  # Import messages for feedback
 
 # View to display all tasks
 def task_list(request):
